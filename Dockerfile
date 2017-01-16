@@ -1,7 +1,8 @@
 # Slim image containing just hugo
 FROM alpine:3.5
 
-ENV HUGO_VERSION=0.15
+ENV HUGO_VERSION=0.18
+
 RUN apk add --no-cache \
         curl \
     && mkdir /tmp/hugo \
